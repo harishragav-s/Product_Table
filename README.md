@@ -1,5 +1,5 @@
 # Product Table
-### NAME : Harish Ragav S  Date: 7/7/25 
+### NAME : Harish Ragav S  Date: 8/7/25 
 ## Objective:
 
 To create a structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes.
@@ -48,6 +48,7 @@ Use meaningful text inside the table for clarity.
 
 Keep the table design strictly in HTML for simplicity.
 ## HTML Code:
+index.html 
 ```
 <!DOCTYPE html>
 <html>
@@ -95,6 +96,45 @@ Keep the table design strictly in HTML for simplicity.
 
 </body>
 </html>
+```
+style.css 
+```
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e9f5e9;
+}
 ```
 
 ## Output:
