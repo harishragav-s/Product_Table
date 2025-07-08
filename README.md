@@ -54,14 +54,14 @@ index.html
 <html>
 <head>
     <title>Product Table</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Product Listing</h1>
+    <h1 style="text-align: center;">Product Table</h1>
 
-    <table border="1">
-        <caption>Available Products and Their Details</caption>
-
+    <table>
+        <caption>Available Products</caption>
         <thead>
             <tr>
                 <th>Product Name</th>
@@ -69,7 +69,6 @@ index.html
                 <th>Description</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
                 <td>Laptop</td>
@@ -77,19 +76,19 @@ index.html
                 <td>High-speed performance</td>
             </tr>
             <tr>
-                <td>Phone</td>
-                <td>$499</td>
-                <td>Budget-friendly smartphone</td>
-            </tr>
-            <tr>
-                <td>Tablet</td>
-                <td>₹25,000</td>
-                <td>Portable and efficient for media</td>
+                <td>Smartphone</td>
+                <td>₹20,000</td>
+                <td>Budget-friendly Android phone</td>
             </tr>
             <tr>
                 <td>Headphones</td>
-                <td>$79</td>
-                <td>Noise-cancelling and wireless</td>
+                <td>₹2,500</td>
+                <td>Noise-cancelling over-ear headphones</td>
+            </tr>
+            <tr>
+                <td>Smartwatch</td>
+                <td>₹3,999</td>
+                <td>Fitness tracker with heart rate monitor</td>
             </tr>
         </tbody>
     </table>
@@ -138,7 +137,7 @@ tbody tr:hover {
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/ef23fdb4-c1c2-43dc-a826-1749a39a6b4d)
+![image](https://github.com/user-attachments/assets/de6b211a-2052-4b77-93f2-bc073753b625)
 
 ## Result:
 A structured HTML table that displays product-related information, including product names, prices, and descriptions, useful for catalogs, listings, or e-commerce prototypes is created successfully.
